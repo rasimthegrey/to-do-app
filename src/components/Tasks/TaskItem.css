@@ -1,0 +1,9 @@
+.task-container{
+    border-radius: 13px;
+    margin: 5px 40%;
+    background-color: lightgrey;
+}
+
+.task-description{
+    padding: 5% 30% 5% 5%;
+}
