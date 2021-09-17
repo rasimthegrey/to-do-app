@@ -22,12 +22,11 @@ const AddTask = (props) => {
             description: enteredDescription
         }
 
-        //props.onSaveTaskData(taskData)
+        props.onAddTask(taskData)
         //2-way binding
-        console.log(taskData)
         setEnteredTitle('')
         setEnteredDescription('')
-        console.log(taskData)
+        
     }
 
     return (

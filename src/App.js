@@ -1,5 +1,6 @@
 import Task from "./components/Tasks/Task";
 import AddTask from "./components/AddTask/AddTask";
+import NewTask from "./components/AddTask/NewTask";
 
 function App() {
 
@@ -34,7 +35,7 @@ function App() {
 
   return (
     <div className="App">
-      <AddTask onAddTask={() => addTaskHandler} />
+      <AddTask onAddTask={addTaskHandler} />
       <Task data={tasks}/>
     </div>
   );

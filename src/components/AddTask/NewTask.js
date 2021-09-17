@@ -12,7 +12,7 @@ const NewTask = (props) => {
 
     return (
         <div>
-            <AddTask onSaveTaskData={saveTaskDataHandler} />
+            <AddTask onSaveTaskData={saveTaskDataHandler()} />
         </div>
     )
 }
